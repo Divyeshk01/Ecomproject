@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/app/src/main/res/drawable/bgshape.xml" value="0.1" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/drawable/bg_bnv.xml" value="0.113" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/drawable/bgsearchbar.xml" value="0.113" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/drawable/navi_item_color.xml" value="0.113" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/font/andika_new_basic_italic.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/activity_category_details.xml" value="0.15598290598290598" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/activity_detail_order.xml" value="0.33" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/activity_detailmyorder.xml" value="0.22" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/activity_firstscreen.xml" value="0.2" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/activity_orderpage.xml" value="0.22" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/activity_product_fullview.xml" value="0.272992700729927" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/cust_toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/designprodeuctlist.xml" value="0.33" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/designrecycle.xml" value="0.33" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/dialog_exit.xml" value="0.22" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/dr_header.xml" value="0.203125" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/fragment_account_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/fragment_categrory_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/fragment_mainpage.xml" value="0.18" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/fragment_order_fragment.xml" value="0.28835489833641403" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/loading_event.xml" value="0.2" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/look_rcycle.xml" value="0.5445859872611465" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/layout/toolbar_d.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/menu/fordrawerview.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/customer/src/main/res/menu/forhome.xml" value="0.22" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/drawable/bgsearchbar.xml" value="0.1" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/drawable/ic_baseline_add_location_alt_24.xml" value="0.1" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_customer_order.xml" value="0.15598290598290598" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_customer_orderdetails.xml" value="0.15598290598290598" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_firstactivity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_fullvieworder.xml" value="0.25" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_homepage.xml" value="0.22" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_loginpage.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_loginpage2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_order_cust.xml" value="0.1675213675213675" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_order_cust_details.xml" value="0.1675213675213675" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_order_customer.xml" value="0.1" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_ordercustomer.xml" value="0.15598290598290598" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_orderdetail_cust.xml" value="0.1675213675213675" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_orderrecive.xml" value="0.1675213675213675" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_product_addpage.xml" value="0.2" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_singuppage.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/activity_supplier_see_prodect.xml" value="0.18" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/loading_event.xml" value="0.203125" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/order_look.xml" value="0.2" />
+        <entry key="..\:/Users/divyesh/AndroidStudioProjects/TheDstore/supplier/src/main/res/layout/supplier_product_about.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

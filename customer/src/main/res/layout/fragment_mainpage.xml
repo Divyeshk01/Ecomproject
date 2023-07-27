@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Mainpage"
+    >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/bad_script"
+        android:text="what are you looking for?"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+       android:layout_gravity="center_horizontal"
+        android:background="@drawable/bgsearchbar"
+        android:queryHint="search by product name" />
+
+<com.denzcoskun.imageslider.ImageSlider
+    android:id="@+id/isview1"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="10dp"
+    android:background="#F3F3F3"
+    app:iss_auto_cycle="true"
+    app:iss_delay="3000"
+    app:iss_period="3000"
+
+
+    />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcy1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:elevation="5dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="No More items >>"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+
+
+
+
+
+</LinearLayout>
+
+
+</ScrollView>

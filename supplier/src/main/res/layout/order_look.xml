@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view123"
+
+    >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            android:layout_marginTop="5dp"
+            app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/oid123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="ordr id:1h345j3443h543h4545hj"
+                    android:textColor="#000000"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/totp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="Total payment: 3500"
+                    android:textColor="#474747"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/qt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Qty:3"
+                    android:textColor="#198800"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/det1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="280dp"
+                    android:layout_marginTop="75dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="05-07-2023"
+                    android:textColor="#21C127"
+                    android:textSize="11dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tim1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="290dp"
+                    android:layout_marginTop="95dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="11:30:50"
+                    android:textColor="#AE1E1E1E"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

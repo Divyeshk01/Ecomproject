@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".categrory_fragment"
+    android:background="#E4FFFFFF">
+
+    <LinearLayout
+        android:id="@+id/fashion1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/fashionimg"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:shadowColor="#000000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="6"
+            android:text="Fashion "
+            android:textColor="#FFFFFF"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/electro1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/laps"
+        android:orientation="vertical"
+
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:shadowColor="#505050"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="6"
+            android:text="Electronics "
+            android:textColor="#FFFFFF"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/toys1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/istockphototoys"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:shadowColor="#000000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="6"
+            android:text="Toys "
+            android:textColor="@color/white"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/homek1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/kitchenimjpg"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:shadowColor="#000000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="6"
+            android:text="Home&amp;Kichen "
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/decor1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/decorat"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:shadowColor="#000000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="6"
+            android:text="Decoration"
+            android:textColor="@color/white"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/beuty1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/makeb1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:shadowColor="#000000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="6"
+            android:text="Beauty"
+            android:textColor="@color/white"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

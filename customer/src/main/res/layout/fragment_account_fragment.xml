@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".account_fragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/propic1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:background="#FFFFFF"
+
+            android:src="@drawable/ic_account_circle_24"
+            app:shapeAppearanceOverlay="@style/shpforrounded"
+            app:strokeColor="#4C4C4C"
+            app:strokeWidth="1dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="155dp"
+            android:text="Profile Picture"
+            android:textColor="#3A3A3A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="215dp"
+            android:fontFamily="sans-serif"
+            android:text="Name: "
+            android:textColor="#0C0C0C"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/aname1"
+            android:layout_width="239dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="210dp"
+            android:background="#DDDDDD"
+            android:paddingHorizontal="5dp"
+            android:text=" divyesh k"
+            android:textColor="#3A3A3A"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="260dp"
+            android:fontFamily="sans-serif"
+            android:text="Email: "
+            android:textColor="#090909"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/aemail1"
+            android:layout_width="239dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="255dp"
+            android:background="#DDDDDD"
+            android:freezesText="true"
+            android:paddingHorizontal="5dp"
+            android:text=" dicbsjyjaabcds@gmail.com"
+            android:textColor="#3A3A3A"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="320dp"
+            android:fontFamily="sans-serif"
+            android:text="Address: "
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/daddress1"
+            android:layout_width="239dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="300dp"
+            android:background="#DDDDDD"
+            android:gravity="start"
+            android:inputType="textMultiLine"
+            android:paddingHorizontal="15dp"
+            android:paddingTop="6dp"
+            android:text=" 457,jtdfiudhfueiuhfiue ehf weuyew www wew "
+            android:textColor="#3A3A3A"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tedit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="385dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="You Are in Edit Mode"
+            android:textColor="#1B8503"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/editbtn1"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="409dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Edit details"
+            android:textColor="@color/black"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Save1"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="409dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#089C0E"
+            android:fontFamily="sans-serif"
+            android:text="Save Change"
+            android:textColor="@color/black"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".singuppage">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/shoppingcartmodified" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text=" Supplier Account"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/rname1"
+        android:layout_width="322dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/bgshape"
+        android:drawableStart="@drawable/pen_baseline_border_color_24"
+        android:drawablePadding="11dp"
+        android:drawableTint="@color/black"
+        android:hint="Enterprise Name"
+        android:inputType="text"
+        android:paddingStart="11dp" />
+
+    <EditText
+        android:id="@+id/remail1"
+        android:layout_width="322dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/bgshape"
+        android:drawableStart="@android:drawable/ic_dialog_email"
+        android:drawablePadding="11dp"
+        android:drawableTint="@color/black"
+        android:hint="Email adress"
+        android:inputType="textEmailAddress"
+        android:paddingStart="11dp" />
+
+    <EditText
+        android:id="@+id/raddrs1"
+        android:layout_width="322dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/bgshape"
+        android:drawableStart="@drawable/ic_baseline_add_location_alt_24"
+        android:drawablePadding="11dp"
+        android:drawableTint="@color/black"
+        android:hint="Office Address"
+        android:inputType="textMultiLine"
+        android:paddingStart="11dp" />
+
+    <EditText
+        android:id="@+id/rph1"
+        android:layout_width="322dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/bgshape"
+        android:drawableStart="@android:drawable/stat_sys_phone_call"
+        android:drawablePadding="11dp"
+        android:drawableTint="@color/black"
+        android:hint="Mobile Number"
+        android:inputType="number"
+        android:paddingStart="11dp" />
+
+    <EditText
+        android:id="@+id/rpassword1"
+        android:layout_width="322dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/bgshape"
+        android:drawableStart="@android:drawable/ic_lock_idle_lock"
+        android:drawablePadding="11dp"
+        android:drawableTint="@color/black"
+        android:hint="Set Password"
+
+        android:inputType="textPassword"
+        android:paddingStart="11dp" />
+
+    <EditText
+        android:id="@+id/rpassword2"
+        android:layout_width="322dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="640dp"
+        android:background="@drawable/bgshape"
+        android:drawableStart="@android:drawable/ic_lock_idle_lock"
+        android:drawablePadding="11dp"
+        android:drawableTint="@color/black"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingStart="11dp" />
+
+    <Button
+        android:id="@+id/rsignup1"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="670dp"
+        android:layout_marginBottom="23dp"
+        android:backgroundTint="#03A9F4"
+        android:text="signup"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

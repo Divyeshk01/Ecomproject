@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="335dp"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#9CC3C1C1"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Are you Want to Exit?"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/e_yes"
+        android:layout_width="90dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#56C2F3"
+        android:text="YES"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/e_no"
+        android:layout_width="90dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="70dp"
+
+        android:backgroundTint="#62C8F6"
+        android:text="NO"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detailmyorder">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:cardElevation="7dp">
+        <ImageView
+            android:id="@+id/bk123"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="?attr/actionModeCloseDrawable"
+            app:tint="@color/black" />
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize">
+
+
+        <TextView
+            android:id="@+id/oid1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="serif"
+            android:text="oederid: F488fh7d7h8yj8v4q8bf11:33:34"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="55dp"
+            android:background="#CCCCCC" />
+
+        <ImageView
+            android:id="@+id/ppic1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="73dp"
+            android:layout_marginBottom="15dp"
+            android:background="#EAE9E9"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/pnm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="82dp"
+            android:fontFamily="serif"
+            android:text="uno reversew card"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/prc12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="130dp"
+            android:fontFamily="serif"
+            android:text="$ 2000"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pid1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="170dp"
+            android:fontFamily="@font/biorhyme_extralight"
+            android:text="product id: F488fh7d7h8yj8v4q8bf11:33:34"
+            android:textColor="#000000"
+            android:textSize="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/ppic1"
+            android:background="#CCCCCC" />
+
+        <TextView
+            android:id="@+id/quntity1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/amiko_semibold"
+            android:text="Qty :1"
+            android:textColor="#1F8F00"
+            android:textSize="16dp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/quntity1"
+            android:background="#CCCCCC" />
+
+        <TextView
+            android:id="@+id/tpaym1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="274dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="sans-serif"
+            android:text="Total payment:12000"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/paytype123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="310dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif"
+            android:text=" payment methods:cash on delivery(cod)"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/paytype123"
+            android:background="#CCCCCC" />
+
+        <TextView
+            android:id="@+id/dt123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif"
+            android:text="date:11-03-2004"
+            android:textColor="#8C0000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/time123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif"
+            android:text="Time:11:03:54"
+            android:textColor="#8C0000"
+            android:textSize="12dp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="384dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/trackdelivery" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="serif-monospace"
+            android:layout_centerHorizontal="true"
+            android:text="Free delivery"
+            android:textColor="#1F8F00"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="447dp"
+            android:background="#CCCCCC" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cad1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="450dp"
+            android:elevation="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="serif-monospace"
+                android:text="Order Status:"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

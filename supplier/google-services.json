@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "135084339986",
+    "project_id": "thedstoredb",
+    "storage_bucket": "thedstoredb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135084339986:android:60b9aac2396345b85539cb",
+        "android_client_info": {
+          "package_name": "com.example.supplier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135084339986-id280kivtc4jon33svs2tkg0r0480vjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8a2hQimMgmvqF_989j-gafZ0qU5_HVP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135084339986-id280kivtc4jon33svs2tkg0r0480vjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.supplier">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TheDsupplier"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TheDstore">
+        <activity
+            android:name=".Fullvieworder"
+            android:exported="false" />
+        <activity
+            android:name=".Supplier_seeProdect"
+            android:exported="false" />
+        <activity
+            android:name=".Order_cust_details"
+            android:exported="false" />
+        <activity
+            android:name=".Product_addpage"
+            android:exported="false" />
+        <activity
+            android:name=".Homepage"
+            android:exported="false" />
+        <activity
+            android:name=".singuppage"
+            android:exported="false" />
+        <activity
+            android:name=".Loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".firstactivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
