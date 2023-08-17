@@ -1,5 +1,6 @@
 package com.example.thedstore;
 
+import android.app.Dialog;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AlertDialog;
@@ -53,11 +54,11 @@ ImageSlider imageSlider;
         imageList.add(new SlideModel(R.drawable.adsinommerce,ScaleTypes.FIT));
         imageSlider.setImageList(imageList);
         databaseReference = FirebaseDatabase.getInstance().getReference("Supplier");
-        AlertDialog.Builder builder=new AlertDialog.Builder(getContext());
-        builder.setCancelable(false);
-        builder.setView(R.layout.loading_event);
-        AlertDialog alertDialog=builder.create();
-        alertDialog.show();
+
+        Dialog dialog=new Dialog(getActivity());
+        dialog.setContentView(R.layout.loading_event);
+        dialog.setCancelable(false);
+        dialog.show();
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot snapshot) {
@@ -106,12 +107,12 @@ ImageSlider imageSlider;
                 }
 
 
-                alertDialog.dismiss();
+               dialog.dismiss();
             }
 
             @Override
             public void onCancelled(DatabaseError error) {
-                    alertDialog.dismiss();
+                   dialog.dismiss();
             }
         });
 

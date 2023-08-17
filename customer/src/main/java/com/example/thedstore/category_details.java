@@ -28,9 +28,17 @@ public class category_details extends AppCompatActivity {
     String strcat;
     RecyclerView recyclerView;
     D_adpter dadpter;
-
+    ImageView backbtn1;
     public category_details() {
 
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        backbtn1.setOnClickListener(view -> {
+            finish();
+        });
     }
 
     @Override
@@ -40,6 +48,8 @@ public class category_details extends AppCompatActivity {
         Intent intent1=getIntent();
         strcat= intent1.getStringExtra("catss");
         recyclerView=findViewById(R.id.recyclevv1);
+        backbtn1=findViewById(R.id.bkbk2);
+
         FirebaseDatabase.getInstance().getReference("Supplier").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {

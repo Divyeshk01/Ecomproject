@@ -5,24 +5,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".category_details">
+
    <androidx.cardview.widget.CardView
        android:layout_width="match_parent"
        android:layout_height="?actionBarSize"
-       app:cardElevation="10dp"
-       >
+       app:cardElevation="10dp">
+
       <ImageView
+          android:id="@+id/bkbk2"
           android:layout_width="30dp"
-          android:layout_height="30dp"
+          android:layout_height="23dp"
           android:layout_gravity="center_vertical"
+          android:layout_margin="4dp"
           android:src="?attr/actionModeCloseDrawable"
-          app:tint="@color/black"
-          />
+          app:tint="@color/black" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Categroy List"
+          android:layout_gravity="center_vertical"
+          android:textSize="15dp"
+          android:textColor="#2C2C2C"
+          android:fontFamily="serif"
+          android:layout_marginLeft="40dp"/>
+
    </androidx.cardview.widget.CardView>
+
    <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recyclevv1"
        android:layout_width="match_parent"
        android:layout_height="match_parent"
-       android:id="@+id/recyclevv1"
-         android:layout_marginTop="?actionBarSize"
-       />
+       android:layout_marginTop="?actionBarSize" />
 
 </RelativeLayout>
