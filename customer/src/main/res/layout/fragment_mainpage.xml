@@ -24,13 +24,7 @@
         android:textSize="17dp"
         android:textStyle="bold" />
 
-    <androidx.appcompat.widget.SearchView
-        android:layout_width="320dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="10dp"
-       android:layout_gravity="center_horizontal"
-        android:background="@drawable/bgsearchbar"
-        android:queryHint="search by product name" />
+    
 
 <com.denzcoskun.imageslider.ImageSlider
     android:id="@+id/isview1"
